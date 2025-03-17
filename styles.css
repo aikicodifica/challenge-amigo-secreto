@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.amigo-imagen {
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#resultado {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#reiniciarBtn {
+    padding: 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#reiniciarBtn:hover {
+    background-color: #c82333;
+}
+
+.fondo {
+    background-image: url("assets/amigo-secreto.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.boton {
+    background-image: url("assets/play_circle_outline.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px; /* Ajusta según sea necesario */
+    height: 50px;
+}
+
